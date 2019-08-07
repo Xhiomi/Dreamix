@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import NavBar from './navbar';
-// import imagen from '../posts/assets/imagen.jpg';
 import image1 from '../img/1.png';
 
 class Home extends React.Component {
