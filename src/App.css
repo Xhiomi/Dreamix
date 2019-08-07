@@ -31,3 +31,36 @@
     transform: rotate(360deg);
   }
 }
+
+.customCard {
+  width: 18rem
+}
+
+.neko-logo{
+  height: 3vw;
+  margin: 0.5vw;
+}
+
+.carousel-item{
+  max-height: 50vh;
+  width: 100vw;
+}
+
+.carrousel-images{
+  height: 50vh;
+  justify-content: center;
+}
+
+.statistics{
+  display: flex;
+  margin:auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+.cat-main-div{
+  display: flex;
+}
