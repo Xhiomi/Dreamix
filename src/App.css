@@ -54,6 +54,7 @@
 .statistics{
   display: flex;
   margin:auto;
+  margin-top: 50px;
 }
 
 h1{
@@ -63,4 +64,42 @@ h1{
 
 .cat-main-div{
   display: flex;
+}
+
+.dreamix{
+  position: absolute;
+  height: 500px;
+  margin-left: 32vw;
+  margin-top: 50px;
+}
+
+.gif{
+  position: absolute;
+  height: 600px;
+  width: 100vw;
+}
+
+.main-div{
+  position: relative;
+  margin-top: 600px
+}
+
+.blue-ocean{
+  width: 100%;
+}
+
+.brain{
+  height: 400px;
+}
+
+.brain-background{
+  background-color: black;
+  display: flex;
+}
+
+.healthcare{
+  font-size: 50px;
+  margin-top: 150px;
+  color: white;
+  text-align: center;
 }

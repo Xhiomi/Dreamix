@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import image16 from '../img/16.png';
 
 class Navbar extends React.Component {
   render() {
     return(
       <nav className="navbar navbar-expand-lg navbar-light bg-info">
-        <img className="neko-logo" src="https://cdn.imgbin.com/0/13/18/imgbin-nerve-injury-neuron-nervous-system-auriculotemporal-nerve-aQKds2xrQeUXi3PUwPeEQD13p.jpg" alt=""/>
+        <img className="neko-logo" src={image16} alt=""/>
         <Link className="navbar-brand" to="/">Dreamix</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
